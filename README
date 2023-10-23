@@ -32,22 +32,26 @@ Antes de empezar a trabajar en la aplicación, asegúrate de tener instalados lo
 
 1. Clona el repositorio en tu máquina local:
 
-   ```bash
-   git clone https://github.com/tu-usuario/rick-and-morty-character-viewer.git
+```bash
+git clone https://github.com/tu-usuario/rick-and-morty-character-viewer.git
+```
 
 2. Navega al directorio del proyecto:
 
-   ```bash
-   cd rick-and-morty-character-viewer
+```bash
+cd rick-and-morty-character-viewer
+```
 
 3. Instala las dependencias:
 
-    ```bash
-   npm install
+ ```bash
+npm install
+```
 
 4. Inicia la aplicación:
 
-    ```bash
-   npm start
+```bash
+npm start
+```
 
 La aplicación debería estar disponible en http://localhost:3000.
