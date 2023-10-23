@@ -1,0 +1,53 @@
+# Rick and Morty Character Viewer
+
+## Descripción
+
+Esta aplicación web permite a los usuarios explorar personajes de la serie "Rick and Morty" utilizando datos proporcionados por la API de Rick and Morty. La aplicación se ha desarrollado utilizando tecnologías modernas, incluyendo Redux Toolkit, React Query, Sass, Standard JS y Axios, para ofrecer una experiencia de usuario fluida y eficiente.
+
+## Características Principales
+
+- Visualización de una lista de personajes con detalles como nombre, imagen, género, estado y tipo.
+- Vista detallada de un personaje seleccionado con información adicional.
+- Almacenamiento en caché de datos de la API para una funcionalidad fuera de línea.
+- Paginación opcional para cargar personajes en lotes más pequeños.
+- Visualización opcional de datos agregados.
+
+## Tecnologías Utilizadas
+
+- **React**: El marco de trabajo principal para la interfaz de usuario.
+- **Redux Toolkit**: Para el manejo del estado de la aplicación.
+- **React Query**: Para la gestión de datos y consultas a la API de Rick and Morty.
+- **Sass**: Para el diseño y estilización de la aplicación.
+- **Standard JS**: Para el cumplimiento de un estándar de código limpio y consistente.
+- **Axios**: Para realizar peticiones a la API de Rick and Morty.
+
+## Requisitos de Desarrollo
+
+Antes de empezar a trabajar en la aplicación, asegúrate de tener instalados los siguientes requisitos:
+
+- Node.js y npm instalados en tu sistema.
+- Un editor de código de tu elección.
+
+## Instrucciones de Instalación
+
+1. Clona el repositorio en tu máquina local:
+
+   ```bash
+   git clone https://github.com/tu-usuario/rick-and-morty-character-viewer.git
+
+2. Navega al directorio del proyecto:
+
+   ```bash
+   cd rick-and-morty-character-viewer
+
+3. Instala las dependencias:
+
+    ```bash
+   npm install
+
+4. Inicia la aplicación:
+
+    ```bash
+   npm start
+
+La aplicación debería estar disponible en http://localhost:3000.

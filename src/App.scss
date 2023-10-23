@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+$breakpoints: (
+    sm: 540px,
+    md: 768px,
+    lg: 1024px
+);
+
+@mixin media-up($breakpoint) {
+    @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+        @content
+    }
+}
+
+#layout {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    transition: 1s;
+
+    @include media-up(lg){
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+    }
+}
+
+#character-list-container{
+    @include media-up(lg){
+        flex: 1 0 100%;
+    }
+}
+
+#character-detail-container{
+    @include media-up(lg){
+        flex: 1 0 100%;
+    }
+}
+
+#character-visualization-container{
+    @include media-up(lg){
+        flex: 1 0 100%;
+    }
+}

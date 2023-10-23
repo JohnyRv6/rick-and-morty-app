@@ -1,0 +1,21 @@
+#character-list-container {
+    grid-area: 1 / 1 / 7 / 4;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+h2{
+    padding: 20px;
+    color: #fff;
+}
+
+.character-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(115px, 1fr));
+    gap: 10px;
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+}
